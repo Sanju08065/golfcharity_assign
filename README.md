@@ -32,7 +32,7 @@ A premium subscription-driven web application that combines golf performance tra
 | Database | Supabase (PostgreSQL) · Row Level Security · Real-time triggers |
 | Payments | Stripe Checkout (subscriptions + one-time donations) |
 | Email | Resend API (welcome, draw results, winner notifications) |
-| Deployment | Vercel (frontend + backend serverless) |
+| Deployment | Vercel (frontend + backend ) |
 
 ---
 

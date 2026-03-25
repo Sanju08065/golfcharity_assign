@@ -255,9 +255,3 @@ If no one matches all 5 numbers, the 5-match prize pool carries forward to the n
 
 **Ratnam Sanjay** — 3rd Year B.Tech CSE (Data Science), SR University, Warangal
 
-
----
-
-## 📄 License
-
-This project was built for evaluation purposes as part of the Digital Heroes trainee selection process.

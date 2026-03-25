@@ -52,6 +52,14 @@ router.post('/', async (req, res) => {
           } catch (e) { console.error('Failed to retrieve subscription:', e.message); }
         }
 
+        // Fallback: calculate from today + plan duration
+        if (!renewalDate) {
+          const now = new Date();
+          if (plan === 'yearly') now.setFullYear(now.getFullYear() + 1);
+          else now.setMonth(now.getMonth() + 1);
+          renewalDate = now.toISOString();
+        }
+
         const { error } = await supabaseAdmin
           .from('profiles')
           .update({

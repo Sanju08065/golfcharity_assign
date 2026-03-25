@@ -93,6 +93,17 @@ router.post('/activate', verifyToken, async (req, res) => {
       } catch (e) { console.error('Failed to get subscription details:', e.message); }
     }
 
+    // Fallback: calculate renewal from today + plan duration if Stripe didn't provide it
+    if (!renewalDate) {
+      const now = new Date();
+      if (plan === 'yearly') {
+        now.setFullYear(now.getFullYear() + 1);
+      } else {
+        now.setMonth(now.getMonth() + 1);
+      }
+      renewalDate = now.toISOString();
+    }
+
     const { data: updateResult, error } = await supabaseAdmin
       .from('profiles')
       .update({

@@ -11,7 +11,7 @@ A premium subscription-driven web application that combines golf performance tra
 | | URL |
 |---|---|
 | **Frontend** | [https://golfcharity-assignment.vercel.app/](https://golfcharity-assignment.vercel.app/) |
-| **Backend API** | [https://golfcharity_assignt.vercel.app/api/health](https://golfcharity_assignt.vercel.app/api/health) |
+| **Backend API** | [https://golfcharity-assignt.vercel.app/api/health](https://golfcharity-assignt.vercel.app/api/health) |
 
 ### Test Credentials
 

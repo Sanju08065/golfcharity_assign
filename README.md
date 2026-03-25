@@ -1,6 +1,6 @@
 # 🏌️ Golf Charity Subscription Platform
 
-A premium subscription-driven web application that combines golf performance tracking, charitable giving, and a monthly draw-based reward engine. Built as a full-stack selection assignment for Digital Heroes.
+A premium subscription-driven web application that combines golf performance tracking, charitable giving, and a monthly draw-based reward engine. Built as a full-stack selection assignment
 
 > **Play Golf. Win Prizes. Change Lives.**
 

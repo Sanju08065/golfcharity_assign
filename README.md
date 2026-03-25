@@ -10,8 +10,8 @@ A premium subscription-driven web application that combines golf performance tra
 
 | | URL |
 |---|---|
-| **Frontend** | [golf-charity-6aiv.vercel.app](https://golf-charity-6aiv.vercel.app) |
-| **Backend API** | [golf-charity-seven.vercel.app](https://golf-charity-seven.vercel.app/api/health) |
+| **Frontend** | [(https://golfcharity_assignment.vercel.app](https://golfcharity_assignment.vercel.app) |
+| **Backend API** | [https://golfcharity_assignt.vercel.app/api/health](https://golfcharity_assignt.vercel.app/api/health) |
 
 ### Test Credentials
 
@@ -120,14 +120,14 @@ Run `supabase-schema.sql` in your Supabase SQL Editor. This creates all tables, 
 
 Then create test users in Supabase → Authentication → Users:
 ```
-Email: admin@golfcharity.com    Password: AdminPass123!    Auto-confirm: ON
-Email: testuser@golfcharity.com Password: TestUser123!     Auto-confirm: ON
+Email: admin@admin.com    Password: Admin@123
+Email: user@user.com Password: User@123
 ```
 
 Set roles:
 ```sql
-UPDATE profiles SET role = 'admin', subscription_status = 'active' WHERE email = 'admin@golfcharity.com';
-UPDATE profiles SET subscription_status = 'active', subscription_plan = 'monthly' WHERE email = 'testuser@golfcharity.com';
+UPDATE profiles SET role = 'admin', subscription_status = 'active' WHERE email = 'admin@admin.com';
+UPDATE profiles SET subscription_status = 'active', subscription_plan = 'monthly' WHERE email = 'user@user.com';
 ```
 
 Create storage bucket: Supabase → Storage → New Bucket → `winner-proofs` (Public, 5MB max).

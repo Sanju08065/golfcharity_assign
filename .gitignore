@@ -1,0 +1,64 @@
+# ── Dependencies ──────────────────────────────────────────────
+node_modules/
+**/node_modules/
+
+# ── Environment variables — NEVER commit these ────────────────
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+
+# ── Build output ──────────────────────────────────────────────
+dist/
+dist-ssr/
+build/
+**/dist/
+**/build/
+
+# ── Vercel ────────────────────────────────────────────────────
+.vercel/
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Editor ────────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+
+# ── Package manager locks (keep package-lock.json, ignore others) ──
+yarn.lock
+pnpm-lock.yaml
+
+# ── Misc ──────────────────────────────────────────────────────
+*.local
+.cache/
+.temp/
+coverage/
+.nyc_output/
+stripe.exe

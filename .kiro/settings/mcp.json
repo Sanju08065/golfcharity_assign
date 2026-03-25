@@ -10,7 +10,8 @@
       },
       "autoApprove": [
         "testsprite_bootstrap",
-        "testsprite_generate_code_summary"
+        "testsprite_generate_code_summary",
+        "testsprite_generate_standardized_prd"
       ]
     }
   }
